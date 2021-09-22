@@ -1,0 +1,9 @@
+
+---
+  - hosts: server
+    become: true
+    roles:
+    - docker
+    vars_files:
+      - vars/default.yml
+

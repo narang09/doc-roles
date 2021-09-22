@@ -1,0 +1,6 @@
+---
+# tasks file for docker
+#
+- import_tasks: docker-install.yml
+- import_tasks: docker-pull-image.yml
+- import_tasks: docker-create.yml     
